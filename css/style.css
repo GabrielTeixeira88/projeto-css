@@ -86,8 +86,7 @@ p {
   header {
       flex-direction: row;
       justify-content: space-between;
-      align-items: center;
-      max-width: 90%; 
+      align-items: center; 
       margin: 0 auto; 
   }
 
@@ -102,13 +101,12 @@ p {
   }
 
   nav ul li {
-      margin: 10px 0;
+      margin: 5px 0;
+      width: 100%;
+      background-color: #ccc;
   }
 
   nav ul li a {
-      background-color: #ccc;
-      padding: 10px;
-      border-radius: 4px;
       color: #333;
   }
 
@@ -118,6 +116,6 @@ p {
   }
 
   section article {
-      flex: 1 1 45%; 
+      flex: 1 1; 
   }
 }
