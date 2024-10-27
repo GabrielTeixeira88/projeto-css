@@ -8,7 +8,6 @@
 body {
   font-family: monospace, sans-serif;
   line-height: 1.7;
-  padding: 20px;
   background-color: #f4f4f9;
 }
 
@@ -61,12 +60,10 @@ h1 {
 }
 
 article {
-
   flex: 1 1;
   max-width: 500px; 
   background: #f4f4f9;
   padding: 10px;
-  border-radius: 8px;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -75,7 +72,6 @@ article {
 
 img {
   max-width: 100%;
-  border-radius: 8px;
   background-color: #f4f4f9;
   margin-bottom: 10px;
 }
